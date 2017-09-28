@@ -1,5 +1,13 @@
-# pingrtmp
+# ping-rtmp
 > RTMP layer PingPong test.
+
+## Install and Run
+```
+go get -u github.com/gnolizuh/ping-rtmp
+cd ping-rtmp
+go build -i -o ping-rtmp .
+./ping-rtmp -push rtmp://yourip/live/ --pull rtmp://yourip/live/
+```
 
 ## Usage
 
