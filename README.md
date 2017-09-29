@@ -6,15 +6,15 @@
 go get -u github.com/gnolizuh/ping-rtmp
 cd ping-rtmp
 go build -i -o ping-rtmp .
-./ping-rtmp -push rtmp://yourip/live/ --pull rtmp://yourip/live/
+./ping-rtmp --push rtmp://yourip/live/ --pull rtmp://yourip/live/
 ```
 
 ## Usage
 
 ```
-$ ./pingrtmp -h
+$ ./ping-rtmp -h
 NAME:
-   pingrtmp - RTMP layer PingPong test.
+   ping-rtmp - RTMP layer PingPong test.
 
 USAGE:
    config [global options] command [command options] [arguments...]
